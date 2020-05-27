@@ -1,0 +1,58 @@
+/* ----------Color scheme------------ */
+
+:root {
+  --darkPink: #c90254;
+  --medPink: #e68caa;
+  --lightPink: lavenderBlush;
+  --bannerColor: #da628a;
+  --mainFont: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+* {
+  font-family: var(--mainFont);
+}
+
+/* ---------------Navigation Bar------------- */
+.navbar {
+  min-height: 80px;
+}
+
+.navbar-nav > li {
+  padding-left: 10px;
+  line-height: 20px;
+  font-size: 17px;
+}
+
+.navbar-custom {
+  background-color: var(--lightPink);
+}
+
+.nav-link {
+  color: var(--medPink) !important;
+}
+
+.navbar .navbar-nav > li > a:hover {
+  color: var(--darkPink) !important;
+}
+
+.active {
+  color: var(--darkPink) !important;
+}
+
+/* -------------Information Banner----------- */
+
+.banner-title {
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 125px;
+  padding-top: 125px;
+  color: var(--bannerColor);
+  text-decoration: bold;
+}
+
+.banner {
+  background-color: var(--lightPink);
+  margin: 0;
+  padding: 0;
+}
