@@ -24,11 +24,21 @@ const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
         <Contact />
-        <Container>
-          <footer>
-            © {new Date().getFullYear()} Grace Tsui. All rights reserved.
-          </footer>
-        </Container>
+        <footer>
+          © {new Date().getFullYear()} Grace Tsui. All rights reserved.
+          <p>
+            <a
+              target="_blank"
+              href="https://icons8.com/icons/set/filled-message--v1"
+            >
+              Envelope icon
+            </a>{" "}
+            icon by{" "}
+            <a target="_blank" href="https://icons8.com">
+              Icons8
+            </a>
+          </p>
+        </footer>
       </div>
     </>
   )
