@@ -4,7 +4,7 @@ import icon from "../images/message-icon.png"
 
 export default function Contact() {
   return (
-    <Container>
+    <Container style={{ maxWidth: "700px" }}>
       <div className="center contact">
         <h2 style={{ fontSize: "2.5em" }}>Reach out to me.</h2>
         <h3 style={{ fontSize: "1.5em" }}>I'd love to get in touch!</h3>
@@ -17,6 +17,7 @@ export default function Contact() {
           <Button variant="primary">
             <img
               src={icon}
+              alt={"Message Icon"}
               style={{ marginRight: "3%", marginBottom: "0.5%" }}
             />
             {"Email Me"}
