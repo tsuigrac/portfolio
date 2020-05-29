@@ -30,7 +30,11 @@ const Layout = ({ children }) => {
         <hr></hr>
         <footer>
           <div>
-            <a target="_blank" href="https://www.facebook.com/gtsui2">
+            <a
+              target="_blank"
+              href="https://www.facebook.com/gtsui2"
+              rel="noopener noreferrer"
+            >
               <img
                 src={facebook}
                 alt={"Facebook Logo"}
@@ -42,6 +46,7 @@ const Layout = ({ children }) => {
             <a
               target="_blank"
               href="https://www.linkedin.com/in/grace-tsui-5082b6168/"
+              rel="noopener noreferrer"
             >
               <img
                 src={linkedin}
@@ -51,7 +56,11 @@ const Layout = ({ children }) => {
                 className="logo"
               />{" "}
             </a>
-            <a target="_blank" href="https://github.com/tsuigrac">
+            <a
+              target="_blank"
+              href="https://github.com/tsuigrac"
+              rel="noopener noreferrer"
+            >
               <img
                 src={github}
                 alt={"Github Logo"}
@@ -64,7 +73,11 @@ const Layout = ({ children }) => {
           © {new Date().getFullYear()} Grace Tsui. All rights reserved.
           <p style={{ fontSize: "15px" }}>
             Icons by{" "}
-            <a target="_blank" href="https://icons8.com">
+            <a
+              target="_blank"
+              href="https://icons8.com"
+              rel="noopener noreferrer"
+            >
               Icons8
             </a>
           </p>

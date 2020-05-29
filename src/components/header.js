@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import { Navbar, Nav, Container } from "react-bootstrap"
-import Banner from "./banner"
 
 const Header = ({ siteTitle }) => (
   <header className="navbar-custom">
