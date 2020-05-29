@@ -107,6 +107,12 @@
 footer {
   padding-left: 5%;
   padding-right: 5%;
+  margin-bottom: 4%;
+}
+
+.logo {
+  height: 24px;
+  width: 24px;
 }
 
 .logo:hover {

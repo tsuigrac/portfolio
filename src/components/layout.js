@@ -71,7 +71,7 @@ const Layout = ({ children }) => {
             </a>
           </div>
           © {new Date().getFullYear()} Grace Tsui. All rights reserved.
-          <p style={{ fontSize: "15px" }}>
+          {/* <p style={{ fontSize: "15px" }}>
             Icons by{" "}
             <a
               target="_blank"
@@ -80,7 +80,7 @@ const Layout = ({ children }) => {
             >
               Icons8
             </a>
-          </p>
+          </p> */}
         </footer>
       </div>
     </>
