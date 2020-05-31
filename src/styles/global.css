@@ -204,9 +204,37 @@ footer {
   }
 }
 
+/* ----------------Images------------- */
+
+.circle-image {
+  height: 150px;
+  border-radius: 50%;
+}
+
+.pic-container {
+  max-width: 500px !important;
+  margin-bottom: 10%;
+}
+
+.section {
+  margin-top: 10%;
+}
+
+.section-pic {
+  min-width: 90%;
+}
+
 /* ----------------Miscellaneous---------------- */
 .center {
   text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+h1 {
+  color: var(--darkPink);
 }
 
 h2 {
