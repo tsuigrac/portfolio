@@ -2,13 +2,101 @@ import React from "react"
 import Layout from "../components/layout"
 import Banner from "../components/banner"
 import { Container } from "react-bootstrap"
+import SEO from "../components/seo"
+
+import me from "../images/home/me.png"
+import frame from "../images/home/frame.png"
 
 export default function Work() {
   return (
     <Layout>
       <Banner name="Work" />
       <Container>
-        <h1>This is my work page</h1>
+        <SEO title="Work" />
+        <Container className="pic-container center">
+          <img src={me} alt={"Picture of me"} className="circle-image" />
+          <h3 className="image-header">Grace Tsui</h3>
+          <p className="image-desc">
+            I'm a 4th year student at Grinnell College pursuing a BA in computer
+            science. I love problem solving and am passionate about programming
+            and software development.
+          </p>
+          <hr style={{ marginBottom: "40%" }}></hr>
+        </Container>
+        <div className="center">
+          <h1>What do I like to do?</h1>
+          <p>Computer science, of course, but also...</p>
+        </div>
+        <div className="section row">
+          <div className="col-lg-6 order-lg-1 center">
+            <img src={frame} alt={"Language"} className="section-pic" />
+          </div>
+          <div className="col-lg-5 order-lg-2 text-center text-lg-left p-2">
+            <h3 className="image-header">Learn new languages</h3>
+            <p className="image-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+
+        <div className="section row">
+          <div className="col-lg-6 order-lg-2 center">
+            <img src={frame} alt={"Meeting People"} className="section-pic" />
+          </div>
+          <div className="col-lg-5 order-lg-1 text-center text-lg-left p-2">
+            <h3 className="image-header">Meet new people</h3>
+            <p className="image-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <div className="section row">
+          <div className="col-lg-6 order-lg-1 center">
+            <img src={frame} alt={"Travel"} className="section-pic" />
+          </div>
+          <div className="col-lg-5 order-lg-2 text-center text-lg-left p-2">
+            <h3 className="image-header">Travel</h3>
+            <p className="image-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <div className="section row">
+          <div className="col-lg-6 order-lg-2 center">
+            <img src={frame} alt={"Eating"} className="section-pic" />
+          </div>
+          <div className="col-lg-5 order-lg-1 text-center text-lg-left p-2">
+            <h3 className="image-header">Eat</h3>
+            <p className="image-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <hr></hr>
       </Container>
     </Layout>
   )

@@ -54,10 +54,10 @@ const IndexPage = () => (
         <p>Computer science, of course, but also...</p>
       </div>
       <div className="section row">
-        <div className="col-lg-6">
+        <div className="col-lg-6 order-lg-1 center">
           <img src={frame} alt={"Language"} className="section-pic" />
         </div>
-        <div className="col-lg-5">
+        <div className="col-lg-5 order-lg-2 text-center text-lg-left p-2">
           <h3 className="image-header">Learn new languages</h3>
           <p className="image-desc">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -72,7 +72,10 @@ const IndexPage = () => (
       </div>
 
       <div className="section row">
-        <div className="col-lg-5">
+        <div className="col-lg-6 order-lg-2 center">
+          <img src={frame} alt={"Meeting People"} className="section-pic" />
+        </div>
+        <div className="col-lg-5 order-lg-1 text-center text-lg-left p-2">
           <h3 className="image-header">Meet new people</h3>
           <p className="image-desc">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -84,15 +87,12 @@ const IndexPage = () => (
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
-        <div className="col-lg-6 right">
-          <img src={frame} alt={"Meeting People"} className="section-pic" />
-        </div>
       </div>
       <div className="section row">
-        <div className="col-lg-6">
+        <div className="col-lg-6 order-lg-1 center">
           <img src={frame} alt={"Travel"} className="section-pic" />
         </div>
-        <div className="col-lg-5">
+        <div className="col-lg-5 order-lg-2 text-center text-lg-left p-2">
           <h3 className="image-header">Travel</h3>
           <p className="image-desc">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -106,7 +106,10 @@ const IndexPage = () => (
         </div>
       </div>
       <div className="section row">
-        <div className="col-lg-5">
+        <div className="col-lg-6 order-lg-2 center">
+          <img src={frame} alt={"Eating"} className="section-pic" />
+        </div>
+        <div className="col-lg-5 order-lg-1 text-center text-lg-left p-2">
           <h3 className="image-header">Eat</h3>
           <p className="image-desc">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -117,9 +120,6 @@ const IndexPage = () => (
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
-        </div>
-        <div className="col-lg-6 right">
-          <img src={frame} alt={"Eating"} className="section-pic" />
         </div>
       </div>
       <hr></hr>
