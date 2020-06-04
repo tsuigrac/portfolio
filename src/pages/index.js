@@ -58,15 +58,16 @@ const IndexPage = () => (
           <img src={frame} alt={"Language"} className="section-pic" />
         </div>
         <div className="col-lg-5 order-lg-2 text-center text-lg-left p-2">
-          <h3 className="image-header">Learn new languages</h3>
+          <h3 className="image-header">Learning new languages</h3>
           <p className="image-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            My favorite hobby is learning new ways to express myself. I enjoy
+            learning about other cultures, and I have taught myself Korean from
+            a complete beginner to an advanced level. I am currently studying
+            Mandarin Chinese during my summer break. Aside from foreign
+            languages, I also enjoy learning new programming languages in my
+            spare time. This website was a side project I worked on during
+            summer break that helped me get familiar with React and the Gatsby
+            framework!
           </p>
         </div>
       </div>
@@ -76,15 +77,14 @@ const IndexPage = () => (
           <img src={frame} alt={"Meeting People"} className="section-pic" />
         </div>
         <div className="col-lg-5 order-lg-1 text-center text-lg-left p-2">
-          <h3 className="image-header">Meet new people</h3>
+          <h3 className="image-header">Meeting new people</h3>
           <p className="image-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            I love getting to know new people and discovering new interests. A
+            way I do this throug my position as a board member at the Grinnell
+            College Wellness Lounge, where I plan campus-wide events with other
+            student groups. I also just like attending campus events such as
+            theater productions, Pub Quizzes, or even just study breaks to
+            connect with different people!
           </p>
         </div>
       </div>
@@ -93,15 +93,14 @@ const IndexPage = () => (
           <img src={frame} alt={"Travel"} className="section-pic" />
         </div>
         <div className="col-lg-5 order-lg-2 text-center text-lg-left p-2">
-          <h3 className="image-header">Travel</h3>
+          <h3 className="image-header">Traveling</h3>
           <p className="image-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            I've traveled to many parts of Asia, a small part of Europe, and
+            many states in the US. I also recently studied abroad in South
+            Korea, where I had the opportunity to meet great friends, visit
+            interesting cultural attractions, eat great food, and improve my
+            language skills. I would really, really like to explore other places
+            and travel a lot more!
           </p>
         </div>
       </div>
@@ -110,15 +109,12 @@ const IndexPage = () => (
           <img src={frame} alt={"Eating"} className="section-pic" />
         </div>
         <div className="col-lg-5 order-lg-1 text-center text-lg-left p-2">
-          <h3 className="image-header">Eat</h3>
+          <h3 className="image-header">Eating</h3>
           <p className="image-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Pass the plate, please! When I visit somewhere new, I always try to
+            eat as much of the local food as possible. Currently, Korean cuisine
+            is my favorite - spicy rice cakes? Check! Beef tartre? Check!
+            Silkworm pupae? ...It was an interesting experience!
           </p>
         </div>
       </div>
