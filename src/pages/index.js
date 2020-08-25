@@ -4,12 +4,13 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container, Button } from "react-bootstrap"
-// import iceCream from "../images/ice-cream.png"
-// import cone from "../images/cone.png"
 
 //Images for about
 import me from "../images/home/me.png"
-import frame from "../images/home/frame.png"
+import language from "../images/home/language.jpg"
+import food from "../images/home/food.jpg"
+import people from "../images/home/people.jpg"
+import travel from "../images/home/travel.jpg"
 
 const IndexPage = () => (
   <Layout>
@@ -55,26 +56,28 @@ const IndexPage = () => (
       </div>
       <div className="section row">
         <div className="col-lg-6 order-lg-1 center">
-          <img src={frame} alt={"Language"} className="section-pic" />
+          <img src={language} alt={"Korean"} className="section-pic" />
         </div>
         <div className="col-lg-5 order-lg-2 text-center text-lg-left p-2">
           <h3 className="image-header">Learning new languages</h3>
           <p className="image-desc">
             My favorite hobby is learning new ways to express myself. I enjoy
             learning about other cultures, and I have taught myself Korean from
-            a complete beginner to an advanced level. I am currently studying
-            Mandarin Chinese during my summer break. Aside from foreign
-            languages, I also enjoy learning new programming languages in my
-            spare time. This website was a side project I worked on during
-            summer break that helped me get familiar with React and the Gatsby
-            framework!
+            a complete beginner to an advanced level. The picture shown is an
+            image I took while wearing a hanbok, a traditional Korean clothing
+            style, while vising the Gyeongbokgung palace in Seoul during my time
+            there studying abroad. I am currently studying Mandarin Chinese
+            during my summer break. Aside from foreign languages, I also enjoy
+            learning new programming languages in my spare time. This website
+            was a side project I worked on during summer break that helped me
+            get familiar with React and the Gatsby framework!
           </p>
         </div>
       </div>
 
       <div className="section row">
         <div className="col-lg-6 order-lg-2 center">
-          <img src={frame} alt={"Meeting People"} className="section-pic" />
+          <img src={people} alt={"Meeting People"} className="section-pic" />
         </div>
         <div className="col-lg-5 order-lg-1 text-center text-lg-left p-2">
           <h3 className="image-header">Meeting new people</h3>
@@ -90,23 +93,24 @@ const IndexPage = () => (
       </div>
       <div className="section row">
         <div className="col-lg-6 order-lg-1 center">
-          <img src={frame} alt={"Travel"} className="section-pic" />
+          <img src={travel} alt={"Travel"} className="section-pic" />
         </div>
         <div className="col-lg-5 order-lg-2 text-center text-lg-left p-2">
           <h3 className="image-header">Traveling</h3>
           <p className="image-desc">
-            I've traveled to many parts of Asia, a small part of Europe, and
-            many states in the US. I also recently studied abroad in South
-            Korea, where I had the opportunity to meet great friends, visit
-            interesting cultural attractions, eat great food, and improve my
-            language skills. I would really, really like to explore other places
-            and travel a lot more!
+            I've traveled to many parts of Asia, some of Europe, and across the
+            United States. I also recently studied abroad in South Korea and
+            visited Japan in the process, where I had the opportunity to meet
+            great friends, visit interesting cultural attractions, eat great
+            food, and improve my language skills. Here's a picture of _________
+            in Osaka! I would really, really like to explore other places and
+            travel a lot more!
           </p>
         </div>
       </div>
       <div className="section row">
         <div className="col-lg-6 order-lg-2 center">
-          <img src={frame} alt={"Eating"} className="section-pic" />
+          <img src={food} alt={"Eating"} className="section-pic" />
         </div>
         <div className="col-lg-5 order-lg-1 text-center text-lg-left p-2">
           <h3 className="image-header">Eating</h3>

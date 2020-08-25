@@ -221,7 +221,7 @@ footer {
 }
 
 .section-pic {
-  min-width: 90%;
+  max-width: 95%;
 }
 
 /* ----------------Portfolio Page---------------- */
@@ -274,4 +274,8 @@ h3 {
 
 p {
   font-size: 18px;
+}
+
+.image-header {
+  font-size: 30px;
 }
