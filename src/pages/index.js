@@ -63,14 +63,13 @@ const IndexPage = () => (
           <p className="image-desc">
             My favorite hobby is learning new ways to express myself. I enjoy
             learning about other cultures, and I have taught myself Korean from
-            a complete beginner to an advanced level. The picture shown is an
-            image I took while wearing a hanbok, a traditional Korean clothing
-            style, while vising the Gyeongbokgung palace in Seoul during my time
-            there studying abroad. I am currently studying Mandarin Chinese
-            during my summer break. Aside from foreign languages, I also enjoy
-            learning new programming languages in my spare time. This website
-            was a side project I worked on during summer break that helped me
-            get familiar with React and the Gatsby framework!
+            a complete beginner to an advanced level. This is a picture of me
+            with my peers from the Korean Language Institute at Yonsei
+            University. Our project consisted of using 100,000 won (about 84
+            USD) to spread happiness in our society and then give a presentation
+            in Korean. We decided to make care packages for other university
+            students during finals week, as shown on the bottom left corner!. I
+            am currently studying Mandarin Chinese during my summer break.
           </p>
         </div>
       </div>
@@ -87,7 +86,8 @@ const IndexPage = () => (
             College Wellness Lounge, where I plan campus-wide events with other
             student groups. I also just like attending campus events such as
             theater productions, Pub Quizzes, or even just study breaks to
-            connect with different people!
+            connect with different people! Here are a few pictures I took with
+            friends I met abroad.
           </p>
         </div>
       </div>
@@ -102,9 +102,9 @@ const IndexPage = () => (
             United States. I also recently studied abroad in South Korea and
             visited Japan in the process, where I had the opportunity to meet
             great friends, visit interesting cultural attractions, eat great
-            food, and improve my language skills. Here's a picture of _________
-            in Osaka! I would really, really like to explore other places and
-            travel a lot more!
+            food, and improve my language skills. This collage shows my
+            adventures in Japan, Korea, and Denmark. I would love the
+            opportunity explore other places and travel a lot more!
           </p>
         </div>
       </div>
@@ -118,7 +118,9 @@ const IndexPage = () => (
             Pass the plate, please! When I visit somewhere new, I always try to
             eat as much of the local food as possible. Currently, Korean cuisine
             is my favorite - spicy rice cakes? Check! Beef tartre? Check!
-            Silkworm pupae? ...It was an interesting experience!
+            Silkworm pupae? ...It was an interesting experience! Enjoy these
+            photos of mouthwatering fluffy pancakes from Osaka and streetfood
+            from Seoul.
           </p>
         </div>
       </div>
