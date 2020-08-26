@@ -41,7 +41,7 @@ const IndexPage = () => (
     <Container>
       <SEO title="Home" />
       <Container className="pic-container center">
-        <img src={me} alt={"Picture of me"} className="circle-image" />
+        <img src={me} alt={"Me"} className="circle-image" />
         <h3 className="image-header">Grace Tsui</h3>
         <p className="image-desc">
           I'm a 4th year student at Grinnell College pursuing a BA in computer
