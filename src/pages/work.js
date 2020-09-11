@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import Banner from "../components/banner"
 import { Container, Button } from "react-bootstrap"
 import SEO from "../components/seo"
+import { Link } from "gatsby"
 
 import me from "../images/home/me.png"
 import frame from "../images/home/frame.png"
@@ -50,14 +51,25 @@ export default function Work() {
               <hr className="picture-divide"></hr>
             </div>
             <div className="col-sm-4 center order-sm-1">
-              <img src={me} className="circle-image"></img>
+              <a
+                target="_blank"
+                href="https://github.com/tsuigrac"
+                rel="noopener noreferrer"
+              >
+                <img src={me} className="circle-image"></img>
+              </a>
             </div>
             <div className="col-sm-4 center order-sm-3">
-              <img src={me} className="circle-image"></img>
+              <a
+                target="_blank"
+                href="https://tsuigrac.itch.io/farmer"
+                rel="noopener noreferrer"
+              >
+                <img src={me} className="circle-image"></img>
+              </a>
             </div>
           </div>
         </Container>
-
         <Container className="project-description">
           <div>
             <h3 className="center">Farmer</h3>
@@ -83,25 +95,35 @@ export default function Work() {
               students and is funded by an NSF grant.
             </p>
             <p>
-              Please click the right circle above for a demo of the game, and
+              {/* Please click the right circle above for a demo of the game, and
               the left circle for the code that my team worked on in 2019,
-              posted on my Github account.
+              posted on my Github account. */}
             </p>
           </div>
-          {/* TODO:: Dropdown with more information */}
         </Container>
-
         <Container>
           <div className="section row">
             <div className="col-sm-4 center my-auto  order-sm-2">
               <hr className="picture-divide"></hr>
             </div>
             <div className="col-sm-4 center order-sm-1">
-              <img src={me} className="circle-image"></img>
+              <a
+                target="_blank"
+                href="https://tsuigrac.itch.io/farmer"
+                rel="noopener noreferrer"
+              >
+                <img src={me} className="circle-image"></img>
+              </a>
             </div>
 
             <div className="col-sm-4 center order-sm-3">
-              <img src={me} className="circle-image"></img>
+              <a
+                target="_blank"
+                href="https://cosicentraliowa.herokuapp.com/"
+                rel="noopener noreferrer"
+              >
+                <img src={me} className="circle-image"></img>
+              </a>
             </div>
           </div>
         </Container>
@@ -110,13 +132,13 @@ export default function Work() {
             <h3 className="center">CoSI Website</h3>
             <p>
               Last year, I developed this website in a small group of student
-              developers in an AGILE environment. We partnered with a community
-              organization called CoSI, or the Community Support for Immigrants.
-              CoSI is based in Grinnell, Iowa, and is a nonprofit organization
-              run by volunteers. Therefore, the team I worked in offered to
-              develop the website for free so they could help more immigrants in
-              central Iowa gain access to important resources such as
-              information about where to take language courses, ICE raid
+              developers in an AGILE work environment. We partnered with a
+              community organization called CoSI, or the Community Support for
+              Immigrants. CoSI is based in Grinnell, Iowa, and is a nonprofit
+              organization run by volunteers. Therefore, the team I worked in
+              offered to develop the website for free so they could help more
+              immigrants in central Iowa gain access to important resources such
+              as information about where to take language courses, ICE raid
               preparation packets, and immigration lawyers in the area.
             </p>
             <p>
@@ -134,21 +156,27 @@ export default function Work() {
               The website is nearing completion but is not yet launched. Our
               mentors were Professor Barbara Johnson, who works in the Computer
               Science department at Grinnell College, and a Grinnell College
-              alumni who now works in the computer science field. Please click
+              alumni who now works in the computer science field.
+              {/* Please click
               the left circle to see the website as it is right now, and the
-              right circle to access the code.
+              right circle to access the code. */}
             </p>
           </div>
           {/* TODO:: Dropdown with more information */}
         </Container>
-
         <Container>
           <div className="section row">
             <div className="col-sm-4 center my-auto order-sm-2">
               <hr className="picture-divide"></hr>
             </div>
             <div className="col-sm-4 center order-sm-1">
-              <img src={me} className="circle-image"></img>
+              <a
+                target="_blank"
+                href="https://github.com/tsuigrac/Grinnell-Events-iOS"
+                rel="noopener noreferrer"
+              >
+                <img src={me} className="circle-image"></img>
+              </a>
             </div>
 
             <div className="col-sm-4 center order-sm-3">
@@ -171,9 +199,9 @@ export default function Work() {
               backend from an XML file and displaying it on the UI. This
               included storing the dates, times, event names, and descriptions.
               Although this app has not yet been launched onto the Apple App
-              Store, it will be completed very soon. Please click on the left
-              circle for a short video demo of the app, and the right circle to
-              see the code.
+              Store, it will be completed very soon.
+              {/* Please click on the left
+              circle above to see the code. */}
             </p>
             <p style={{ fontStyle: "italic" }}>
               P.S. Grinnell AppDev has just launched another app! It displays
@@ -185,7 +213,6 @@ export default function Work() {
           </div>
           {/* TODO: dropdown of more info */}
         </Container>
-
         <Container>
           <div className="section row">
             <div className="col-sm-4 center my-auto order-sm-2">
@@ -209,8 +236,7 @@ export default function Work() {
             </p>
           </div>
         </Container>
-
-        <Container>
+        {/* <Container>
           <div className="section row">
             <div className="col-sm-4 center my-auto order-sm-2">
               <hr className="picture-divide"></hr>
@@ -232,17 +258,16 @@ export default function Work() {
               smaller projects in various languages. Some of my favorites are
               the tic-tac-toe game I made when I was learning React, which I
               created by following this tutorial.
-              {/* TODO: add link */} When I was learning Ruby on Rails in
+             When I was learning Ruby on Rails in
               preparation for my project with CoSI, I created this website to
               promote healthy habits (inspired by the COVID-19 pandemic!) and
-              learn some basic HTML and CSS {/*TODO: add link*/}. There are also
+              learn some basic HTML and CSS. There are also
               multiple small projects I worked on in Java, C, and Scheme, which
               were assignments from class. You can access them on my Github page
-              here, if you'd like! {/*TODO: add link*/}
+              here, if you'd like!]
             </p>
           </div>
-        </Container>
-
+        </Container> */}
         <hr></hr>
       </Container>
     </Layout>
