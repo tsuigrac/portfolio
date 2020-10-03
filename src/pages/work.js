@@ -27,7 +27,10 @@ export default function Work() {
                 {"My Github"}
               </Button>
             </a>
-            <a href="mailto:tsui.grace99@gmail.com">
+            <a
+              target="_blank"
+              href="https://docs.google.com/document/d/1omX1c9L-NUd-lYIFANl8tQsLTyYhh6aVOhqnWCd5Jvc/edit?usp=sharing"
+            >
               <Button variant="primary" className="body-button">
                 {"My Resume"}
               </Button>

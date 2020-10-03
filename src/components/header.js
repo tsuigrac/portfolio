@@ -22,11 +22,6 @@ const Header = ({ siteTitle }) => (
               Work
             </Link>
           </Nav.Item>
-          <Nav.Item as="li">
-            <Link to="/about" className="nav-link" activeClassName="active">
-              About
-            </Link>
-          </Nav.Item>
         </Nav>
         {/* </Navbar.Collapse> */}
       </Navbar>
